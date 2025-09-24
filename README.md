@@ -30,7 +30,8 @@ END
 ```
 
 ## OUTPUT
-![WhatsApp Image 2025-09-24 at 13 11 06_37a767ca](https://github.com/user-attachments/assets/36f7b4a3-2994-4f99-9188-c91e25487d1f)
+<img width="1598" height="562" alt="image" src="https://github.com/user-attachments/assets/dffebe71-7eae-42f1-9b2b-58657c77b80c" />
+
 
 
 
