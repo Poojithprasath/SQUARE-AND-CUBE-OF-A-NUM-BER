@@ -54,18 +54,31 @@ To write and execute an Assembly language program for finding the cube of a give
 
 ## PROGRAM
 ```
-
-
-
-
-
-
-
-
+MOV R0,#50H
+MOV A,@R0
+MOV B,@R0
+MUL AB
+MOV R1,B
+MOV B,@R0
+MUL AB
+MOV 51H,A
+MOV 52H,B
+MOV A,R1
+MOV B,@R0
+MUL AB
+ADD A,52H
+MOV 52H,A
+MOV 53H,A
+MOV A,#00H
+ADDC A,53H
+MOV 53H,A
+END
 ```
 
 
 ## OUTPUT
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/316ba37b-4ecb-45f0-8173-3037388a9dd7" />
+
 
 ## RESULT
 Thus, the cube of the given data is calculated using 8051 Keil.
